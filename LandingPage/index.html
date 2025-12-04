@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Collection - A Journey Through Words</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Soulspill </div>
+            <ul class="nav-menu">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#nature">Nature</a></li>
+                <li><a href="#love">Love</a></li>
+                <li><a href="#reflection">Reflection</a></li>
+                <li><a href="#dreams">Dreams</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+            <div class="nav-stats">
+                <div class="stat-item">
+                    <span class="stat-value" id="poemsRead">0</span>
+                    <span class="stat-label">Read</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="totalPoems">12</span>
+                    <span class="stat-label">Total</span>
+                </div>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Achievement Toast -->
+    <div class="achievement-toast" id="achievementToast">
+        <div class="achievement-icon">✨</div>
+        <div class="achievement-text">
+            <div class="achievement-title">Achievement Unlocked!</div>
+            <div class="achievement-desc" id="achievementDesc"></div>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="introduction">
+        <div class="container">
+            <div class="intro-content">
+                <h1 class="intro-title">Welcome to Bobby's World</h1>
+                <p class="intro-subtitle">Welcome to my tiny corner of the internet, where my feelings refused to stay inside my head… so I turned them into poems.</p>
+                <div class="intro-text">
+                    <p>Read at your own risk — they might steal your mood, your peace, or your heart. Not my fault 5!!<br><br>
+                    This page contains poetry written at 2 AM when my brain decides to act like Shakespeare with WiFi issues.
+                        Lower your expectations. Or don’t. I don’t control you.
+                        Every poem here has a story behind it, but most of those stories make absolutely no sense.<br>
+                        I write when I’m happy.<br>
+                        I write when I’m sad.<br>
+                        You’ll notice some poems are deep…<br>
+                        and some are so confusing that even I don’t know what I meant.<br>
+                        So go ahead, read everything.
+                </p>
+                </div>
+                <a href="#nature" class="scroll-down">Explore Poems ↓</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nature Theme -->
+    <section id="nature" class="poetry-section theme-nature">
+        <div class="container">
+            <div class="theme-header">
+                <h2 class="theme-title">Nature</h2>
+                <p class="theme-description">Poems inspired by the natural world—its beauty, rhythm, and timeless wisdom</p>
+            </div>
+            <div class="poems-grid">
+                <div class="poem-card" data-poem-id="1" data-theme="nature">
+                    <div class="card-front">
+                        <div class="card-icon">🥀</div>
+                        <h3 class="poem-title">Help Indeed</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Help Indeed</h3>
+                        <div class="poem-content">
+                           One day, In a deep forest, All alone,<br>
+                            When the world felt heavy, and I didn't know what to do,<br>
+                            I heard a beautiful butterfly say,"I am here for you."<br>
+                            She said she is not good at comfort with a humble, gentle heart,<br>
+                            But she gave me the very words I needed for a life.<br>
+
+                            She didn't tell me "Stop it" or "You must be strong"<br>
+                            She just softly whispered "You aren't gonna lose"<br>
+                            And in those simple promising words,I found a will to fight,<br>
+                            She made my heavy darkness feel a little bit more light.<br>
+
+                            "Just cry" she said, made my eyes red,<br>
+                            So I let the tears fall,like a sparky cleansing, summer rain,<br>
+                            I felt the sharp edges of my sorrow and my pain.<br>
+
+                            She is simple,honest comfort and chased away my fear.<br>
+                            So thank you for your patience,and thank you for the "cry"<br>
+                            You're the very best comfort,and I'm so glad you're my ally.<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="2" data-theme="nature">
+                    <div class="card-front">
+                        <div class="card-icon">🩵</div>
+                        <h3 class="poem-title">Beauty sky of you</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Beauty sky of you</h3>
+                        <div class="poem-content">
+                            The beauty of a sky with clouds,<br>
+                            Sprinkles love when they blow,<br></brZ>
+                            Blows are gorgeous when they glow<br>
+                            Glow is different when they flow,<br>
+                            Flow is shining when at sea,<br>
+                            The sea is blue when it's pure,<br>
+                            Pure indeed a cure,<br>
+                            Cure a Universe, with your pure,<br>
+                            If pure isn't you?<br><br>
+                            How you are?<br>
+                            Sky that I admire,<br>
+                            Sea which adores,<br>
+                            Sun which brights,<br>
+                            Moon which heals,<br>
+                            A pure breath of soul😭🤌🏻<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="3" data-theme="nature">
+                    <div class="card-front">
+                        <div class="card-icon">🍀</div>
+                        <h3 class="poem-title">Magical Leaf</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Magical Leaf</h3>
+                        <div class="poem-content">
+                            Once a magical leaf from the tree,<br>
+                            With the greenery of its whole,<br>
+                            Shines through my eyes,<br>
+                            Attracts her presence,<br>
+                            Fairy in my eye,<br>
+                            Urge to hold her once,<br>
+                            But her shine is enough to pull off,<br>
+                            When i ask god,<br>
+                            I realise she is a Princess in my eyes,<br>
+                            She is a leaf of god,<br>
+                            A bright lovely shiny leaf😭🤌🥹<br>
+                            This isn't about leaf 😭🍀<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Theme -->
+    <section id="love" class="poetry-section theme-love">
+        <div class="container">
+            <div class="theme-header">
+                <h2 class="theme-title">Love</h2>
+                <p class="theme-description">Verses that explore the many facets of love—tender, passionate, and eternal</p>
+            </div>
+            <div class="poems-grid">
+                <div class="poem-card" data-poem-id="4" data-theme="love">
+                    <div class="card-front">
+                        <div class="card-icon">🦋</div>
+                        <h3 class="poem-title">Butterfly willing beauty</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Butterfly willing beauty</h3>
+                        <div class="poem-content">
+                            I've seen Butterfly today🦋<br>
+                            Who sat on the lap of a leaf,<br>
+                            Surrounded by some blooms,<br>
+                            A grasshopper from behind,<br>
+                            Tries to hurt the little butterfly,<br>
+                            The urge to save her from the grasshopper,<br>
+                            But, stopped by the heart of humour which made me back,<br>
+                            The beauty of butterfly,<br>
+                            Her wings of twinkle,<br>
+                            Her string of sweetness,<br>
+                            Her life of peach from caterpillar,<br>
+                            Can't save her as she was,<br>
+                            The only thing is her "will" to save her😭🤌🏻<br>
+
+                            #Always keep your "will" strong in this Cruel world 🤌🏻🥹<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="5" data-theme="love">
+                    <div class="card-front">
+                        <div class="card-icon">💕</div>
+                        <h3 class="poem-title">A Magic</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">A Magic</h3>
+                        <div class="poem-content">
+                            You, A Magic 🪄<br>
+                            A Magic that I can't see,<br>
+                            A Magic that I can't explain,<br>
+                            A Magic that I can't deny,<br>
+                            A Magic that I can't forget,<br>
+                            A Magic that I can't wait for the day to come,<br>
+                            But,<br>
+                            A Magic I can feel,<br>
+                            A Magic I can stare,<br>
+                            A Magic I can shine,<br>
+                            Coz You, a Magic like<br>
+                            Kindness shines bright so high,<br>
+                            Love filled with delight,<br>
+                            Heart with a warm embrace,<br>
+                            Beauty, like a star, twinkles,<br>
+                            Presence, like a sweet koyal <br>
+                            Soul, like a floaty rainbow<br>
+                            You are the magic I can't define , I can entwine🪄😭🤌🏻<br>
+                            So, You are a Magic🪄😭<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="6" data-theme="love">
+                    <div class="card-front">
+                        <div class="card-icon">🧚</div>
+                        <h3 class="poem-title">Fairy Tales</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Fairy Tales</h3>
+                        <div class="poem-content">
+                            I'm gonna describe one of the most beautiful girl in the world,<br>
+                            She is a fairy,<br>
+                            Her voice as a honey sugar,<br>
+                            Her hair as a bang glides,<br>
+                            Her eyes as a shining Venus,<br>
+                            Her heart as a pure Universe,<br>
+                            She walks like a princess,<br>
+                            She talks like a hypnotic,<br>
+                            She cries like a baby 😭,<br>
+                            But umm....<br>
+                            Yup,she is a Babyyy,<br>
+                            Coz she is fairy🧚<br>
+                            Fairy🧚 Fairy🧚 Fairy🧚<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reflection Theme -->
+    <section id="reflection" class="poetry-section theme-reflection">
+        <div class="container">
+            <div class="theme-header">
+                <h2 class="theme-title">Reflection</h2>
+                <p class="theme-description">Thoughts on life, growth, and the journey of self-discovery</p>
+            </div>
+            <div class="poems-grid">
+                <div class="poem-card" data-poem-id="7" data-theme="reflection">
+                    <div class="card-front">
+                        <div class="card-icon">🧭</div>
+                        <h3 class="poem-title">Serene of you🫴🏽</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Serene of you🫴🏽</h3>
+                        <div class="poem-content">
+                            In the stillness of the night,<br>
+                            Where the stars twinkle brightly,<br>
+                            Beneath the moon's serene embrace,<br>
+                            Her eyes, a repose, Heaven<br>
+                            Dreams through sharp beyond the heart,<br>
+                            Her laughter, a soft delight<br>
+                            The world in her arms, a tranquil<br>
+                            In her, the quiet of roar<br>
+                            The loudness of peace,<br>
+                            The soul finds it' twin,<br>
+                            The serene night of sleep,<br>
+                            Her presence, worries vanish<br>
+                            Her breath, an adorable melody,<br>
+                            You are her,<br>
+                            A serene, the heart adores🫴🏻🙂🥹<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="8" data-theme="reflection">
+                    <div class="card-front">
+                        <div class="card-icon">⏳</div>
+                        <h3 class="poem-title">Stillness of Night</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Stillness of Night</h3>
+                        <div class="poem-content">
+                            In the stillness of the night,<br>
+                            Where the stars twinkle brightly,<br>
+                            Beneath the moon's serene embrace,<br>
+                            Her eyes, a repose, Heaven<br>
+                            Dreams through sharp beyond the heart,<br>
+                            Her laughter, a soft delight<br>
+                            The world in her arms, a tranquil<br>
+                            In her, the quiet of roar<br>
+                            The loudness of peace,<br>
+                            The soul finds it' twin,<br>
+                            The serene night of sleep,<br>
+                            Her presence, worries vanish<br>
+                            Her breath, an adorable melody,<br>
+                            You are her,<br>
+                            A serene, the heart adores🫴🏻🙂🥹<br><br>
+                            ~Bobby udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="9" data-theme="reflection">
+                    <div class="card-front">
+                        <div class="card-icon">🌓</div>
+                        <h3 class="poem-title">Moon as you</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Moon as you</h3>
+                        <div class="poem-content">
+                            A full blue moon at its supremacy,<br>
+                            Bright the world with her cuteness,<br>
+                            Aren't you?<br>
+                            Showers love just by staring,<br>
+                            Aren't you?<br>
+                            Become a shield at her bad time,<br>
+                            Aren't you?<br>
+                            Loved by the goddess of the world,<br>
+                            Aren't you?<br>
+                            Loved by every kid in this world who wants to hold,<br>
+                            Aren't you?<br>
+                            A moon might cry but heal,<br>
+                            Falls but strong and even brighter<br>,
+                            Far but bright,<br>
+                            Half but obsession,<br>
+                            Cool but warm as an obsessor,<br>
+                            Loved and unbreakable 😭❤️,<br>
+                            Aren't you the moon?😭🥹🌚🤌🏻<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dreams Theme -->
+    <section id="dreams" class="poetry-section theme-dreams">
+        <div class="container">
+            <div class="theme-header">
+                <h2 class="theme-title">Dreams</h2>
+                <p class="theme-description">Exploring the realm of dreams, aspirations, and the power of imagination</p>
+            </div>
+            <div class="poems-grid">
+                <div class="poem-card" data-poem-id="10" data-theme="dreams">
+                    <div class="card-front">
+                        <div class="card-icon">⭐</div>
+                        <h3 class="poem-title">Realm of Beauty</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Realm of Beauty</h3>
+                        <div class="poem-content">
+                            In the realm of beauty, she's princess <br>
+                            Her grace, like a dream within boon<br>
+                            In her presence, all other beauty resigns<br>
+                            Her eyes, a mystery puzzle to be solved,<br>
+                            Her soul, reflecting galaxies,<br>
+                            Her smile,a bright beam in the darkest night,<br>
+                            Her voice, a melody that soothes the soul,<br>
+                            Her presence, a boon, a symphony <br>
+                            In her beauty, there's a blessing<br>
+                            Which makes me stare day and night,<br>
+                            Her everything, filling the world with light<br>
+                            Her beauty shines, enternal ❤️<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="11" data-theme="dreams">
+                    <div class="card-front">
+                        <div class="card-icon">🌅</div>
+                        <h3 class="poem-title">Illusions of her</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Illusions of her</h3>
+                        <div class="poem-content">
+                            ILLusions  are many in this world,<br>
+                            A ring of circles,<br>
+                            A purity of flower,<br>
+                            A fragrant bloomed December,<br>
+                            A top mountain of snow,<br>
+                            A sunflower towards the sun,<br>
+                            A beautiful moon when it moves with us,<br>
+                            But,<br>
+                            A bangy rings on your hair,<br>
+                            A purity of your soul,<br>
+                            A fragrant of peace with you,<br>
+                            A top kind hearted,<br>
+                            A shower of sun makes you glow,<br>
+                            A beautiful moon when you are in it?<br>
+                            Are my favourite things in this world 🥹😭🤌🏻<br><br>
+                            ~Bobby Udamala    
+                        </div>
+                    </div>
+                </div>
+                <div class="poem-card" data-poem-id="12" data-theme="dreams">
+                    <div class="card-front">
+                        <div class="card-icon">🌙</div>
+                        <h3 class="poem-title">Realisation of her whole</h3>
+                        <div class="card-hint">Click to read</div>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="poem-title">Realisation of her whole</h3>
+                        <div class="poem-content">
+                           The beauty of grasslands, shelters for habitat,<br>
+                            But she doesn't know how beautiful she is,<br>
+                            A sun with red hot, gives us day,<br>
+                            But I don't know how crucial it is to this world,<br>
+                            A sea of waves, makes us float,<br>
+                            But she doesn't know how shiny she is,<br>
+                            A rose in the morning, fills our hearts,<br>
+                            But she doesn't know how freshly fragrant she is,<br>
+                            Just the way,<br>
+                            A moon at the far,<br>
+                            Showers love with scares,<br>
+                            Trust up on life,<br>
+                            Heal when we hurt,<br>
+                            Far but real beauty of sky,<br>
+                            A beautiful shiny wholesome heart ❤️🫶🏻<br>
+                            If all of them are true?<br>
+                            Then,<br>
+                            Aren't you the moon 🌚😭🤌🏻<br><br>
+                            ~Bobby Udamala
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Me Section -->
+    <section id="connect" class="connect-section">
+        <div class="container">
+            <div class="connect-content">
+                <h2 class="connect-title">Connect With Me</h2>
+                <p class="connect-description">Let's stay connected and share our love for poetry</p>
+                <!-- <form class="connect-form" id="connectForm">
+                    <input type="email" id="emailInput" class="email-input" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-button">Subscribe</button>
+                </form> -->
+                <div class="social-links">
+                    <a href="https://www.instagram.com/bobbyudamala" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <span>@bobbyudamala</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Soulspill. All poems are original works.</p>
+            <p class="footer-subtext">Thank you for taking this journey through words with me. Yours, Bobby❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
