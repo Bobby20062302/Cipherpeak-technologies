@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basic Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calculator" aria-label="Basic Calculator">
+    <div class="display-wrapper">
+      <div id="history" class="history" aria-live="polite"></div>
+      <div id="display" class="display" aria-live="polite">0</div>
+    </div>
+
+    <!-- Grid of buttons -->
+    <div class="keys">
+      <!-- Row 1 -->
+      <button type="button" class="key key-func" data-action="clear">C</button>
+      <button type="button" class="key key-func" data-action="delete">DEL</button>
+      <button type="button" class="key key-func" data-action="sign">±</button>
+      <button type="button" class="key key-op" data-action="operator" data-operator="divide">÷</button>
+
+      <!-- Row 2 -->
+      <button type="button" class="key" data-action="number" data-number="7">7</button>
+      <button type="button" class="key" data-action="number" data-number="8">8</button>
+      <button type="button" class="key" data-action="number" data-number="9">9</button>
+      <button type="button" class="key key-op" data-action="operator" data-operator="multiply">×</button>
+
+      <!-- Row 3 -->
+      <button type="button" class="key" data-action="number" data-number="4">4</button>
+      <button type="button" class="key" data-action="number" data-number="5">5</button>
+      <button type="button" class="key" data-action="number" data-number="6">6</button>
+      <button type="button" class="key key-op" data-action="operator" data-operator="subtract">−</button>
+
+      <!-- Row 4 -->
+      <button type="button" class="key" data-action="number" data-number="1">1</button>
+      <button type="button" class="key" data-action="number" data-number="2">2</button>
+      <button type="button" class="key" data-action="number" data-number="3">3</button>
+      <button type="button" class="key key-op" data-action="operator" data-operator="add">+</button>
+
+      <!-- Row 5 -->
+      <button type="button" class="key key-wide" data-action="number" data-number="0">0</button>
+      <button type="button" class="key" data-action="decimal">.</button>
+      <button type="button" class="key key-equals" data-action="equals">=</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
